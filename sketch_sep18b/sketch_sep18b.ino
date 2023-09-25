@@ -80,7 +80,7 @@ void loop() {
   int targetPos;
 
   if (distance1 < 30 && distance1 > 0) {
-    targetPos = 4.4 * distance2;
+    targetPos = 4 * distance2;
     isDistance2Measured = false;  // Reset the flag for the next iteration
   } else {
     targetPos = 0;
